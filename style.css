@@ -1,0 +1,133 @@
+html {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 125%;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+html body #navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #a5a5a5;
+  border-right: black 2px solid;
+  position: fixed;
+  top: 0;
+  right: 75%;
+  height: 100%;
+  width: 100%;
+  max-width: 25%;
+}
+
+html body #navbar #topic {
+  font-size: 40px;
+  border: black 2px solid;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+html body #navbar a {
+  padding: 10px 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  border: black 2px solid;
+}
+
+html body #navbar .nav-link :nth-last-child(1) {
+  color: red !important;
+}
+
+html body #main-doc {
+  width: 71vw;
+  padding: 0px 10px;
+  letter-spacing: 1.5px;
+}
+
+html body #main-doc .main-section {
+  width: 100%;
+  max-width: 90%;
+}
+
+html body #main-doc .main-section #Introduction {
+  margin-top: 40px;
+}
+
+html body #main-doc .main-section header {
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+html body #main-doc .main-section p {
+  margin: 40px 0px;
+}
+
+html body #main-doc .main-section ul li {
+  margin: 20px 0px;
+}
+
+html body #main-doc .main-section div {
+  background-color: rgba(165, 165, 165, 0.411);
+  width: 100%;
+  padding: 30px;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1400px) {
+  html body #navbar #topic {
+    font-size: 30px;
+  }
+  html body #navbar a {
+    font-size: 20px;
+  }
+  html body #main-doc {
+    width: 71vw;
+    padding: 0px 10px;
+    letter-spacing: 1.5px;
+  }
+  html body #main-doc .main-section {
+    width: 100%;
+    max-width: 98%;
+  }
+  html body #main-doc .main-section #Introduction {
+    margin-top: 40px;
+  }
+  html body #main-doc .main-section header {
+    font-size: 50px;
+    margin-top: 150px;
+  }
+  html body #main-doc .main-section p {
+    margin: 40px 0px;
+  }
+  html body #main-doc .main-section ul li {
+    margin: 20px 0px;
+  }
+  html body #main-doc .main-section div {
+    background-color: rgba(165, 165, 165, 0.411);
+    width: 100%;
+    max-width: 70%;
+    padding: 30px;
+    margin: 10px 0px;
+    border-radius: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

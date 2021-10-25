@@ -1,0 +1,128 @@
+html {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 125%;
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: flex-end;
+    #navbar {
+      display: flex;
+      flex-direction: column;
+        background-color: rgb(165, 165, 165);
+
+      border-right: black 2px solid;
+      position: fixed;
+      top: 0;
+      right: 75%;
+      height: 100%;
+        width: 100%;
+        max-width: 25%;
+      #topic {
+        font-size: 40px;
+        border: black 2px solid;
+        padding: 10px 10px;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      a {
+        padding: 10px 30px;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        border: black 2px solid;
+      }
+    }
+
+    #main-doc {
+      width: 71vw;
+      padding: 0px 10px;
+        letter-spacing: 1.5px;
+
+      .main-section {
+          width: 100%;
+          max-width: 90%;
+          #Introduction{
+            margin-top: 40px;
+          }
+        header {
+          font-size: 50px;
+          margin-top: 150px;    
+        }
+        p{
+            margin: 40px 0px;
+        }
+        ul li{
+            margin: 20px 0px;
+        }
+        div{
+            background-color: rgba(165, 165, 165, 0.411);
+            width: 100%;
+            padding: 30px;
+            margin: 10px 0px;
+            border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:1400px){
+    html {
+        body {
+        
+          #navbar {
+           
+            #topic {
+              font-size: 30px;
+             
+            }
+      
+            a {
+            
+              font-size: 20px;
+            
+            }
+          }
+      
+          #main-doc {
+            width: 71vw;
+            padding: 0px 10px;
+              letter-spacing: 1.5px;
+      
+            .main-section {
+                width: 100%;
+                max-width: 98%;
+                #Introduction{
+                  margin-top: 40px;
+                }
+              header {
+                font-size: 50px;
+                margin-top: 150px;    
+              }
+              p{
+                  margin: 40px 0px;
+              }
+              ul li{
+                  margin: 20px 0px;
+              }
+              div{
+                  background-color: rgba(165, 165, 165, 0.411);
+                  width: 100%;
+                  max-width: 70%;
+                  padding: 30px;
+                  margin: 10px 0px;
+                  border-radius: 20px;
+              }
+            }
+          }
+        }
+      }
+      
+}
